@@ -63534,7 +63534,38 @@
     "color_chain_text": "0xFFFFFF",
     "ic_home_logo": "https://www.aoulink.io/aou.png"
   }
-}
-
+},
+    {
+        "name": "Banteng Chain Testnet",
+        "chainId": 993,
+        "shortName": "banteng",
+        "chain": "BTG",
+        "network": "testnet",
+        "networkId": 993,
+        "nativeCurrency": {
+            "name": "Banteng Coin",
+            "symbol": "tBTG",
+            "decimals": 18
+        },
+        "rpc": [
+            "https://rpc1.banteng.asia",
+            "https://rpc2.banteng.asia",
+            "https://rpc3.banteng.asia"
+        ],
+        "faucets": [],
+        "infoURL": "https://banteng.asia",
+        "explorers": [
+            {
+                "name": "Banteng Explorer",
+                "url": "https://explorer.banteng.asia",
+                "standard": "EIP3091"
+            }
+        ],
+        "app_resource": {
+            "ic_chain_select": "https://gateway.pinata.cloud/ipfs/bafkreifgth3i5kewkdm4hvxtjqtuifyswtghcizrcqxd34kyjfgqfrgn7e",
+            "ic_chain_unselect": "https://banteng.asia/logo-gray.png",
+            "color_chain_bg": "0xd32f2f"
+        }
+    }
 ]
 
